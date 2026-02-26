@@ -5,7 +5,7 @@ const Navigation = () => {
     return (
         <nav className="navbar" style={{ justifyContent: 'center' }}>
             <NavLink to="/" className="nav-brand">
-                API Fusion
+                DRAXAPIJUNCTION
             </NavLink>
             <div className="nav-links">
                 <NavLink to="/" className={({ isActive }) => (isActive ? 'active' : '')}>Home</NavLink>

@@ -157,11 +157,9 @@ const Weather = () => {
                 {loading && <div className="loading">Fetching satellite data...</div>}
 
                 {weatherData && (
-                    <div className="card weather-hero-card" style={{
+                    <div className="card weather-hero-card ios-glass-panel" style={{
                         background: getBgGradient(weatherData.weather[0].icon),
                         padding: '3rem 2rem',
-                        borderRadius: '24px',
-                        border: '1px solid rgba(255,255,255,0.2)',
                         marginBottom: '3rem',
                         color: 'white'
                     }}>
@@ -227,15 +225,12 @@ const Weather = () => {
                         </div>
 
 
-                        <div className="weather-sun-cycle" style={{
+                        <div className="weather-sun-cycle ios-glass-panel" style={{
                             display: 'flex',
                             justifyContent: 'space-around',
                             alignItems: 'center',
-                            background: 'rgba(0,0,0,0.3)',
-                            borderRadius: '16px',
                             padding: '1.5rem',
-                            marginTop: '2.5rem',
-                            border: '1px solid rgba(255,255,255,0.1)'
+                            marginTop: '2.5rem'
                         }}>
                             <div style={{ display: 'flex', alignItems: 'center', gap: '1.5rem' }}>
                                 <span style={{ fontSize: '2.5rem', filter: 'drop-shadow(0 0 10px rgba(255,200,0,0.5))' }}>🌅</span>
@@ -268,7 +263,7 @@ const Weather = () => {
                                 const dayName = index === 0 ? 'Today' : dateObj.toLocaleDateString([], { weekday: 'long' });
 
                                 return (
-                                    <div key={index} className="premium-card text-center" style={{ padding: '2rem 1rem', display: 'flex', flexDirection: 'column', alignItems: 'center', cursor: 'pointer' }}>
+                                    <div key={index} className="ios-glass-panel text-center" style={{ padding: '2rem 1rem', display: 'flex', flexDirection: 'column', alignItems: 'center', cursor: 'pointer' }}>
                                         <div style={{ fontSize: '1.1rem', fontWeight: '800', marginBottom: '1rem', color: 'var(--primary)', textTransform: 'uppercase', letterSpacing: '1px' }}>
                                             {dayName}
                                         </div>

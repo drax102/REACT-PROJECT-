@@ -219,9 +219,9 @@ h3 {
   justify-content: center;
   align-items: center;
   position: relative;
-  
+
   z-index: 50;
-  
+
 }
 
 .search-input {
@@ -268,7 +268,7 @@ h3 {
   box-shadow: 0 0 10px rgba(250, 204, 21, 0.1) !important;
   position: relative;
   z-index: 52;
-  
+
   overflow: hidden;
   text-shadow: none !important;
 }
@@ -411,19 +411,30 @@ h3 {
   box-shadow: 0 30px 60px rgba(0, 0, 0, 0.8), 0 0 40px rgba(255, 255, 255, 0.2) inset !important;
 }
 
+.ios-glass-panel {
+  background: rgba(40, 40, 40, 0.4);
+  backdrop-filter: blur(25px);
+  -webkit-backdrop-filter: blur(25px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+}
+
 .weather-metric-box {
   transition: all 0.4s ease;
   padding: 1.5rem 1rem;
-  border-radius: 16px;
-  background: rgba(0, 0, 0, 0.15);
-  border: 1px solid transparent;
+  border-radius: 20px;
+  background: rgba(40, 40, 40, 0.4);
+  backdrop-filter: blur(25px);
+  -webkit-backdrop-filter: blur(25px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .weather-metric-box:hover {
-  background: rgba(255, 255, 255, 0.15);
-  transform: translateY(-8px) scale(1.05);
-  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
-  border-color: rgba(255, 255, 255, 0.3);
+  background: rgba(60, 60, 60, 0.5);
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+  border-color: rgba(255, 255, 255, 0.2);
 }
 
 .weather-icon-pop {
