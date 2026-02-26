@@ -7,7 +7,7 @@ const Home = () => {
     return (
         <div className="fade-in py-4">
             <div className="text-center mb-5">
-                <h1 className="fw-bold mb-3 display-4 text-gradient">Welcome to DRAXAPIJUNCTION</h1>
+                <h1 className="fw-bold mb-3 display-4 text-gradient">Welcome to DRAX API JUNCTION</h1>
                 <p className="lead text-secondary w-75 mx-auto">
                     A dynamic Single Page Application (SPA) demonstrating the power of modern React, React Router,
                     and multiple live API integrations seamlessly wrapped in a premium dark UI.
