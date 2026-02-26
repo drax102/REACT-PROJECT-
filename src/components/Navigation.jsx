@@ -7,7 +7,7 @@ const Navigation = () => {
             <NavLink to="/" className="nav-brand">
                 API Fusion
             </NavLink>
-            <div className="nav-links d-none d-md-flex">
+            <div className="nav-links">
                 <NavLink to="/" className={({ isActive }) => (isActive ? 'active' : '')}>Home</NavLink>
                 <NavLink to="/about" className={({ isActive }) => (isActive ? 'active' : '')}>About</NavLink>
                 <NavLink to="/contact" className={({ isActive }) => (isActive ? 'active' : '')}>Contact</NavLink>
